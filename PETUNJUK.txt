@@ -1,0 +1,19 @@
+EDITOR UNDANGAN (PWA)
+
+Isi folder ini harus diunggah ke hosting HTTPS agar bisa dipasang seperti aplikasi.
+Semua file harus berada di folder yang sama.
+
+CARA TERMUDAH (gratis)
+1. Buka app.netlify.com/drop (atau pages.cloudflare.com).
+2. Seret seluruh isi folder ini (index.html, manifest.webmanifest, sw.js, dan tiga file ikon).
+3. Anda akan mendapat alamat web, misalnya nama-anda.netlify.app.
+
+MEMASANG DI PERANGKAT
+- Android (Chrome): buka alamatnya, tekan tombol "Pasang aplikasi" atau menu titik tiga > Instal aplikasi.
+- Komputer (Chrome/Edge): ikon pasang muncul di ujung kanan address bar.
+- iPhone (Safari): tombol Bagikan > Tambah ke Layar Utama.
+
+CATATAN
+- Tidak bisa dipasang bila dibuka langsung dari folder komputer (file://); harus lewat alamat https.
+- Setelah dipasang, editor tetap bisa dibuka tanpa internet. Font dan pratinjau tetap jalan, hanya tampilan font bisa berbeda sampai pernah dimuat sekali.
+- Kalau Anda mengubah file, naikkan nomor versi pada sw.js (editor-undangan-v1 menjadi v2) supaya pembaruan terpasang.
